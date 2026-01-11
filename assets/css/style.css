@@ -23,6 +23,9 @@ body{font-family: 'Courier New', serif;background-size: 12%;}
 .listing-description h2, .listing-description h3 {padding-top:1em;}
 ul {list-style-type:circle;list-style-position:inside;}
 .past-projects ul {list-style-type: none;}
+code {color:#00ffff}
+.listing-description code, code.concept{color:#ff00ff}
+a{color:#00ffff}
 .jost-300 {
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
