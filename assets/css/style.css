@@ -1,31 +1,38 @@
-body{font-family: 'Courier New', serif;background-size: 12%;}
-.notification{
+body {font-family: 'Courier New', serif;background-size: 12%;}
+.notification {
     background-image: url('../img/texture.jpg');
     background-color: rgba(0,0,0, 0.85);
     background-blend-mode: color-dodge;                
     background-size: 200%;
     border:2px solid #191919;
 }
-.box, body{
+.box, body {
     background-image: url('../img/leather.jpg');
     background-color: rgba(0,0,0, 0.7);
     background-blend-mode: color-dodge;                
 }            
-.box, .is-hero{
+.box, .is-hero {
     outline: 1px dashed #333;
     outline-offset: -0.30em;
 }
-.box{color:#eee;background-size: 32%;}
-.box.is-primary{background-color: #14161a;}
-.is-background{background-color: #14161a;}
-.tiny-tags .tag{font-size: 0.6em; padding-left: 0.5em;padding-right: 0.5em;}
-.listing-description p, .past-projects li{padding-bottom: 1em;}
+.box {color:#eee;background-size: 32%;}
+.box.is-primary {background-color: #14161a;}
+.is-background {background-color: #14161a;}
+.tiny-tags .tag {font-size: 0.6em; padding-left: 0.5em;padding-right: 0.5em;}
+.listing-description p, .past-projects li {padding-bottom: 1em;}
 .listing-description h2, .listing-description h3 {padding-top:1em;}
 ul {list-style-type:circle;list-style-position:inside;}
 .past-projects ul {list-style-type: none;}
 code {color:#00ffff}
-.listing-description code, code.concept{color:#ff00ff}
-a{color:#00ffff}
+.listing-description code, 
+code.concept, 
+.notification.past-projects a.is-magenta, 
+.is-magenta {color:#ff00ff}
+.secret {font-size: 0.6em;}
+.secret.hint {line-height: 0.5em;margin-top:0.5em;display:block;}
+#prev-startup a.contact, a, .is-cyan {color:#00ffff}
+#axiomatic .subtitle {margin-top:0.5em;}
+
 .jost-300 {
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
